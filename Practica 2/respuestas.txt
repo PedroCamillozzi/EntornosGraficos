@@ -1,0 +1,237 @@
+Ejercicio 1
+
+1-CSS (Cascading Style Sheets) es un lenguaje de hojas de estilo
+ utilizado para definir la presentación de documentos HTML.
+ Permite aplicar estilos como colores, tamaños, tipografías,
+ márgenes y posicionamiento, separando el contenido de su diseño visual.
+
+2- Las reglas CSS están compuestas por un selector y un bloque
+ de declaraciones.
+ El selector indica a qué elemento HTML se aplicará el estilo,
+ y las declaraciones especifican las propiedades y valores.
+
+3- * CSS en línea (inline): se aplica directamente en la etiqueta
+     HTML mediante el atributo style.
+ * CSS interno (internal): se define dentro de la etiqueta <style> 
+   en el <head> del documento.
+ * CSS externo (external): se utiliza un archivo .css separado 
+   vinculado con <link>.
+
+4- * Selector de etiqueta: p { color: red; }
+* Selector de clase: .clase { color: blue; }
+* Selector de id: #id { color: green; }
+* Selector descendente: div p { color: orange; }
+* Selector universal: * { margin: 0; }
+
+5-Una pseudo-clase es una palabra clave que define un estado
+ especial de un elemento.
+ En los enlaces, las más utilizadas son:
+
+ * link (enlace no visitado)
+ * visited (enlace visitado)
+ * hover (al pasar el mouse)
+ * active (al hacer clic)
+
+6- La herencia es el mecanismo por el cual ciertos estilos aplicados
+ a un elemento padre se transmiten a sus elementos hijos, como por
+ ejemplo el color o la fuente.
+
+7- La cascada es el proceso mediante el cual CSS determina qué estilos aplicar cuando
+ existen múltiples reglas sobre un mismo elemento. Se basa en la especificidad,
+ el origen de los estilos (inline, interno, externo) y el orden en que se declaran.
+
+Ejercicio 2
+
+  * Regla: p#normal
+  * Selector: combina etiqueta + id que se aplica solo a elementos <p> con id="normal".
+  *Declaraciones:
+    *font-family: arial, helvetica;
+    *font-size: 11px;
+    *font-weight: bold;
+  *Aplicación:
+    *<p id="normal">Este es un párrafo</p>
+  *Efecto: el párrafo se muestra con fuente Arial/Helvetica, tamaño 11px y en negrita.
+
+  * Regla: *#destacado
+  * Selector: selector universal (*) + id que se aplica a cualquier elemento que tenga id="destacado".
+  * Declaraciones:
+    * border-style: solid;
+    * border-color: blue;
+    * border-width: 2px;
+  * Aplicación:
+    * <p id="destacado">Este es otro párrafo</p>
+    * <table id="destacado">...</table>
+  * Efecto: tanto el párrafo como la tabla tendrán un borde sólido azul de 2px.
+
+  *Regla: #distinto
+  *Selector: id que se aplica a cualquier elemento con id="distinto".
+  *Declaraciones:
+    *background-color: skyblue;
+    *color: red;
+  *Aplicación:
+    *<p id="distinto">Este es el último párrafo</p>
+  *Efecto: el párrafo tendrá fondo celeste y texto en color rojo.
+
+Ejercicio 3
+  * Regla: p.quitar
+  * Selector: combina etiqueta + clase que se aplica solo a elementos <p> con class="quitar".
+  * Declaración:
+    * color: red;
+  * Aplicación:
+    * <p class="quitar">...</p>
+  * Efecto: el texto de ese párrafo se muestra en color rojo.
+   
+  * Regla: *.desarrollo
+  * Selector: universal + clase que se aplica a cualquier elemento con class="desarrollo".
+  * Declaración:
+    * font-size: 8px;
+  * Aplicación:
+    * <p class="desarrollo">...</p>
+  * Efecto: el texto se muestra con tamaño de fuente muy pequeño (8px).
+
+  * Regla: .importante
+  * Selector: clase que se aplica a cualquier elemento con class="importante".
+  * Declaración:
+    * font-size: 20px;
+  * Aplicación:
+    * <p class="importante">...</p>
+    * <p class="quitar importante">...</p>
+  * Efecto: el texto se muestra con tamaño grande (20px).
+   
+  Análisis de cada elemento HTML
+
+  * <p class="desarrollo">...</p>
+  * Efecto: tamaño de letra 8px.
+  
+  * <p class="quitar">...</p>
+  * Efecto: texto en color rojo.
+  
+  * <p>...</p>
+  * Efecto: sin estilos CSS aplicados (usa valores por defecto).
+  
+  * <p class="importante">...</p>
+  * Efecto: tamaño de letra 20px.
+  
+  * <h1 class="quitar">...</h1>
+  * Efecto: no se aplica el color rojo, porque la regla es p.quitar (solo afecta a párrafos, no a <h1>).
+  
+  * <p class="quitar importante">...</p>
+  * Efecto:
+    * Aplica color: red (por p.quitar) texto rojo
+    * Aplica font-size: 20px (por .importante) texto grande.
+
+Ejercicio 4
+
+  * Regla: *
+  * Selector: universal, se aplica a todos los elementos.
+  * Declaración:
+     *color: green;
+  * Aplicación: todos los elementos HTML.
+  * Efecto: todo el texto es verde por defecto, salvo que otra regla lo sobrescriba.
+
+   * Regla: a:link
+  * Selector: pseudo-clase, enlaces no visitados.
+  * Declaración:
+     *color: gray;
+  * Aplicación:
+     *<a href="...">...</a>
+  * Efecto: enlace en color gris si no fue visitado.
+
+  * Regla: a:visited
+  * Selector: pseudo-clase, enlaces visitados.
+  * Declaración:
+    * color: blue;
+  * Efecto: enlace en color azul si ya fue visitado.
+
+  * Regla: a:hover
+  * Selector: pseudo-clase, al pasar el mouse.
+  * Declaración:
+    * color: fuchsia;
+  * Efecto: enlace cambia a fucsia al pasar el cursor.
+
+  * Regla: a:active
+  * Selector: pseudo-clase, al hacer click.
+  * Declaración:
+    * color: red;
+  * Efecto: enlace en rojo al hacer click.
+
+  * Regla: p
+  * Selector: etiqueta, se aplica a todos los <p>.
+  * Declaración:
+    * font-family: arial, helvetica;
+    * font-size: 10px;
+    * color: black;
+  * Aplicación:
+   * <p>...</p>
+  * Efecto: texto en Arial, tamaño 10px y color negro.
+
+  * Regla: .contenido
+  * Selector: clase, se aplica a cualquier elemento con class="contenido".
+  * Declaración:
+    * font-size: 14px;
+    * font-weight: bold;
+  * Aplicación:
+    * <p class="contenido">...</p>
+    * <body class="contenido">...</body>
+  * Efecto: texto más grande (14px) y en negrita.
+
+  Primer código
+    * Análisis de cada elemento
+
+      * <p class="contenido" style="font-weight: normal;">...</p>
+      * Efecto:
+        * Aplica font-size: 14px (por .contenido)
+        * Aplica color: black (por p)
+        * Aplica font-weight: normal (por estilo inline, mayor prioridad)
+      * Resultado: texto negro, tamaño 14px, no negrita.
+
+      * <table>...</table>
+      * Efecto:
+        * Aplica color: green (por *)
+      * Resultado: texto verde.
+
+      * <a href="...">...</a>
+      * Efecto:
+        * Color depende del estado (link, visited, hover, active)
+      * Resultado: cambia de color según interacción.
+
+  Segundo código
+    Análisis de cada elemento
+
+      * <body class="contenido">
+      * Efecto:
+        * Aplica font-size: 14px
+        * Aplica font-weight: bold
+      * Resultado: todos los elementos heredan estos estilos.
+
+      * <p>...</p>
+      * Efecto:
+        * Hereda font-weight: bold del body
+        * Aplica font-size: 10px (por p, sobrescribe herencia)
+        * Aplica color: black
+      * Resultado: texto negro, tamaño 10px, negrita.
+
+      * <table>...</table>
+      * Efecto:
+        * Hereda font-size: 14px y font-weight: bold
+        * Aplica color: green (por *)
+      * Resultado: texto verde, grande y en negrita.
+
+      * <a href="...">...</a>
+      * Efecto:
+        * Hereda tamaño 14px y negrita
+        * Color depende de pseudo-clases
+      * Resultado: enlace grande, en negrita y con colores según estado.
+
+Ejercicio 5
+  1- h1 em, h2 em, h3 em, h4 em, h5 em, h6 em {color: red}
+
+  2- div p [href] {color: black;}
+
+  3- #ultimo ul {color: yellow;}. #ultimo ul a{color: blue;}
+
+  4- div .importante {color: green;}. h1 .importante, h2 .importante, h3 .importante {color: red;}
+
+  5- h1[title] {color: blue;}
+
+  6- ol a:link {color: blue;}. ol a:visited {color: violet;}. ol a {text-decoration: none;}
