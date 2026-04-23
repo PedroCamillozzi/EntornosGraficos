@@ -1,0 +1,78 @@
+1- La Accesibilidad Web es el conjunto de principios, técnicas y buenas prácticas
+ que permiten que los sitios web puedan ser utilizados por todas las personas,
+ incluyendo aquellas con discapacidades visuales, auditivas, motoras o cognitivas.
+ Su objetivo es garantizar que la información y las funcionalidades estén disponibles
+ sin barreras, independientemente de las capacidades del usuario o de los dispositivos
+ que utilice.
+
+2- La WAI (Web Accessibility Initiative) es una iniciativa del W3C
+ (World Wide Web Consortium) que desarrolla estándares, guías y recursos para promover
+ y asegurar la accesibilidad en la web. Su función principal es crear recomendaciones
+ como las WCAG para que los sitios sean más inclusivos.
+
+3- Los componentes esenciales de la Accesibilidad Web son el contenido
+ (información accesible), la tecnología o código utilizado
+ (HTML, CSS, JavaScript bien estructurado), las herramientas de usuario como navegadores
+ o lectores de pantalla, y las pautas o estándares que guían el desarrollo accesible,
+ como las WCAG.
+
+4- Las Pautas de Accesibilidad al Contenido en la Web (WCAG) son un conjunto de recomendaciones
+ desarrolladas por la WAI que establecen cómo hacer que el contenido web sea más accesible para
+ personas con discapacidades. Estas pautas se basan en principios como que el contenido sea
+ perceptible, operable, comprensible y robusto.
+
+5- Los niveles de prioridad establecidos por las pautas WCAG son tres: Prioridad 1, que son
+ requisitos básicos indispensables; Prioridad 2, que mejoran significativamente la accesibilidad;
+ y Prioridad 3, que son mejoras adicionales para una experiencia más óptima.
+
+6- Los niveles de conformidad son tres: Nivel A, que cumple los requisitos mínimos de
+ accesibilidad; Nivel AA, que es el nivel recomendado y más utilizado en estándares profesionales;
+ y Nivel AAA, que representa el nivel más alto de accesibilidad, aunque no siempre es posible
+ aplicarlo completamente.
+
+7- TAW es una herramienta de análisis de accesibilidad web que permite evaluar sitios y detectar
+ errores o problemas relacionados con las WCAG, ayudando a mejorar el cumplimiento de las pautas
+ de accesibilidad.
+
+8- La Usabilidad Web consiste en la facilidad con la que los usuarios pueden utilizar un sitio web
+ para alcanzar sus objetivos de manera eficiente, efectiva y satisfactoria. Se enfoca en que el
+ sitio sea intuitivo, claro y fácil de aprender y utilizar.
+
+9- La buscabilidad se refiere a la facilidad con la que un usuario puede encontrar información
+ dentro de un sitio web, mientras que la visibilidad hace referencia a qué tan fácil es detectar
+ y acceder a los elementos importantes del sitio, como menús, botones o contenidos clave.
+
+10- La fidelidad en un sitio web se refiere al grado en que los usuarios vuelven a utilizarlo o lo
+ recomiendan, lo cual está relacionado con la calidad de la experiencia, la satisfacción y la
+ confianza que el sitio genera.
+
+11- Las técnicas utilizadas para evaluar la usabilidad de un sistema incluyen pruebas con usuarios
+ reales, análisis heurístico, encuestas y cuestionarios, mapas de calor, grabación de sesiones de
+ uso y evaluación experta basada en principios de usabilidad.
+
+12- La independencia de dispositivos es la capacidad de un sitio web para funcionar correctamente
+ en distintos dispositivos como computadoras, tablets o teléfonos móviles. Desde el punto de vista
+ del usuario, permite acceder al contenido desde cualquier lugar y dispositivo; y desde el punto de
+ vista del desarrollador, facilita el mantenimiento y reduce la necesidad de crear versiones
+ separadas del sitio.
+
+13- La internacionalización es el proceso de diseñar un sitio o sistema para que pueda adaptarse
+ fácilmente a diferentes idiomas y culturas sin necesidad de rediseñar su estructura. Funciona
+ separando el contenido del diseño y permitiendo la adaptación mediante traducciones y ajustes
+ culturales.
+
+14- Los conceptos clave para el diseño web internacional incluyen la adaptabilidad de idiomas,
+ la compatibilidad cultural, el formato de fechas y monedas, la dirección del texto, la codificación
+ de caracteres y la flexibilidad del diseño para distintos contextos.
+
+15- La diferencia entre localización e internacionalización es que la internacionalización es el
+ diseño previo del sistema para que pueda adaptarse a distintos idiomas y culturas, mientras que
+ la localización es el proceso de adaptación concreta del contenido a un idioma o región específica,
+ incluyendo traducciones y ajustes culturales.
+
+16- 
+a- U, U, U, U, U
+b- U, A, A, U, U, U, U, U
+c- U
+d- A, A, U
+e- U, U
