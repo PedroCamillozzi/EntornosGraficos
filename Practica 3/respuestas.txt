@@ -1,0 +1,99 @@
+1- La Arquitectura de la Información es la disciplina encargada de organizar, estructurar y etiquetar
+ el contenido de un sitio web o sistema digital con el objetivo de facilitar su comprensión y su acceso
+ por parte de los usuarios. Su metodología se compone principalmente de la definición de los objetivos
+ del sitio, el análisis de la audiencia, la definición de los contenidos, la organización y
+ estructuración de la información, el diseño del sistema de navegación, el diseño de interacción
+ y la realización de pruebas de evaluación.
+
+2- La ventaja de tener identificados y definidos los objetivos del sitio es que permite orientar todo
+ el desarrollo del mismo hacia un propósito claro, asegurando coherencia entre el diseño, los
+ contenidos y las funcionalidades. Además, ayuda a evitar información innecesaria, mejora la 
+ experiencia del usuario y permite evaluar si el sitio realmente cumple con lo que se propuso.
+
+3- La audiencia es el conjunto de usuarios o personas a las que está dirigido un sitio web,
+ es decir, quienes lo van a utilizar. Estas personas tienen características, necesidades y objetivos
+ específicos que el sitio debe contemplar para ser efectivo.
+
+4- Las audiencias deben analizarse según distintas características como la edad, el nivel educativo,
+ los intereses, las necesidades, el nivel de experiencia en el uso de tecnología y el contexto en el
+ que van a utilizar el sitio, ya sea laboral, educativo o de entretenimiento.
+
+5- Los escenarios de uso son descripciones de situaciones reales o hipotéticas en las que un usuario
+ interactúa con el sitio web para cumplir un objetivo específico, permitiendo anticipar cómo se
+ comportará y qué necesidades tendrá.
+
+6- Los contenidos indispensables de un sitio web incluyen la información principal sobre el sitio o
+ la empresa, la descripción de productos o servicios, la información de contacto, la presentación
+ institucional o “quiénes somos”, la sección de ayuda o soporte y las preguntas frecuentes.
+
+7- Los requerimientos funcionales más frecuentes en un sitio web son el registro e inicio de sesión
+ de usuarios, la búsqueda interna de contenido, los formularios de contacto, los sistemas de carrito
+ de compras en sitios de e-commerce, la gestión de usuarios, los sistemas de pago y la navegación
+ dinámica entre secciones.
+
+8- Al definir la estructura de un sitio web se deben considerar dos aspectos fundamentales: 
+ la organización del contenido, que determina cómo se agrupa la información, y la jerarquía de la
+ información, que define qué elementos son más importantes y cómo se relacionan entre sí.
+
+9- La diferencia entre estructura y diseño de un sitio web es que la estructura se refiere a la
+ organización lógica y jerárquica del contenido, mientras que el diseño se refiere a la parte visual
+ y estética del sitio, como los colores, tipografías, estilos y apariencia general.
+
+10- El sistema de navegación debe ser claro, para que el usuario lo entienda fácilmente; consistente,
+ para mantenerse igual en todas las páginas; visible, para que pueda encontrarse sin dificultad;
+ intuitivo, para que el usuario sepa cómo moverse sin pensar demasiado; y eficiente, para permitir
+ llegar al contenido deseado con la menor cantidad de pasos posible.
+
+11- Los elementos más importantes de un sistema de navegación son el menú principal, los submenús,
+ la barra de búsqueda, las migas de pan o breadcrumbs, los enlaces internos dentro del contenido y
+ el footer con enlaces secundarios o complementarios.
+
+12- Las cuatro etapas del diseño visual de un sitio web son el wireframe, que es un boceto básico de
+ la estructura; el mockup, que incorpora el diseño visual con colores y tipografías; el prototipo,
+ que es una versión interactiva del sitio; y la implementación final, donde el diseño se convierte
+ en un sitio funcional mediante código.
+
+13- Los sistemas que puede utilizar un sitio web para recibir feedback del usuario incluyen
+ formularios de contacto, encuestas, secciones de comentarios o reseñas, chats en vivo y sistemas
+ de valoración como estrellas o “likes”.
+
+14- La prueba de verificación de contenidos consiste en revisar que toda la información del sitio
+ sea correcta, completa, coherente y actualizada, asegurando que no haya errores ni datos faltantes.
+
+15- La prueba de verificación de interfaces consiste en evaluar si la interfaz del sitio es fácil de
+ usar, si mantiene coherencia visual, si funciona correctamente en distintos dispositivos y si no
+ presenta errores de diseño o usabilidad.
+
+16- Los chequeos más importantes respecto de las funcionalidades y aplicaciones del sitio incluyen
+ verificar que todos los enlaces funcionen correctamente, que los formularios envíen información sin
+ errores, que los procesos como login o compras funcionen adecuadamente, que el sitio sea compatible
+ con distintos navegadores, que tenga un buen rendimiento y velocidad de carga, y que las integraciones
+ con bases de datos o sistemas externos funcionen correctamente.
+
+Parte 2
+
+1- Una interfaz es el medio mediante el cual el usuario interactúa con un sistema, aplicación o sitio web.
+ Es el punto de contacto entre la persona y la tecnología, y su objetivo es facilitar la comunicación de
+ forma clara y eficiente. Sus elementos fundamentales incluyen los componentes visuales (como botones,
+ menús, iconos y formularios), la disposición o layout de la información, los controles de interacción
+ (campos de texto, selectores, deslizadores), los mensajes del sistema (notificaciones o alertas) y los
+ elementos de retroalimentación que informan al usuario sobre las acciones realizadas.
+
+2- Un sistema de navegación es el conjunto de elementos que permite a los usuarios desplazarse dentro de un
+ sitio web y acceder a su contenido de manera organizada. Sus elementos indispensables son el menú principal,
+ que agrupa las secciones más importantes; los submenús, que amplían la información del menú principal;
+ la barra de búsqueda, que permite encontrar contenido específico; las migas de pan o breadcrumbs, que
+ muestran la ubicación del usuario dentro del sitio; y los enlaces internos y externos, que facilitan la
+ conexión entre distintas páginas y recursos.
+
+3- Flash es una tecnología utilizada anteriormente para crear contenido multimedia interactivo como animaciones,
+ juegos y videos dentro de sitios web. Su uso puede acarrear varios problemas, como la falta de compatibilidad
+ con dispositivos móviles, el consumo elevado de recursos, tiempos de carga más lentos, problemas de
+ accesibilidad y seguridad, y el hecho de que actualmente está obsoleto y no es soportado por la mayoría de
+ los navegadores modernos.
+
+4- AJAX (Asynchronous JavaScript and XML) es una técnica de desarrollo web que permite actualizar partes de una
+ página sin necesidad de recargarla completamente, mejorando la experiencia del usuario al hacerla más dinámica
+ y rápida. Sin embargo, su uso puede acarrear problemas como mayor complejidad en el desarrollo, dificultades
+ en la depuración de errores, posibles problemas de accesibilidad para usuarios con tecnologías asistivas, y
+ dependencias del navegador o de JavaScript activado, lo que puede limitar su funcionamiento en ciertos casos.
