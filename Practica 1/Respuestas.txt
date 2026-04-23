@@ -1,0 +1,175 @@
+Ejercitación 1:
+
+1- HTML (HyperText Markup Language) es un lenguaje de marcado que se utiliza para estructurar
+el contenido de las páginas web, como textos, imágenes, enlaces y otros elementos.
+Fue creado en 1991 por Tim Berners-Lee como parte del desarrollo de la World Wide Web, 
+con el objetivo de permitir la creación y conexión de documentos a través de internet.
+
+A lo largo del tiempo, HTML evolucionó pasando por versiones como HTML 1.0, 2.0, 3.2, 4.01
+y XHTML, hasta llegar a HTML5 en 2014, que introdujo mejoras importantes como soporte
+multimedia y etiquetas semánticas. Actualmente, HTML5 es la base del desarrollo web moderno
+y se mantiene como un estándar vivo gestionado por organizaciones como WHATWG y W3C, lo que
+significa que se actualiza continuamente sin necesidad de nuevas versiones numeradas.
+
+2- El W3C recomienda seguir una serie de principios básicos al crear documentos HTML
+para asegurar que las páginas sean accesibles, claras y compatibles. Entre los más importantes
+están usar una estructura semántica correcta, es decir, emplear etiquetas adecuadas como
+encabezados, párrafos o secciones según el contenido; separar el contenido de la presentación,
+utilizando HTML para la estructura y CSS para el diseño; y escribir código válido
+y bien formado, respetando los estándares para evitar errores y mejorar la compatibilidad
+entre navegadores.
+
+Además, se promueve la accesibilidad, asegurando que el contenido pueda ser utilizado por todas
+las personas (por ejemplo, usando textos alternativos en imágenes), y la compatibilidad
+universal, creando sitios que funcionen correctamente en distintos dispositivos y navegadores.
+También es clave mantener el código simple, claro y bien organizado, facilitando
+su mantenimiento y evolución a lo largo del tiempo.
+
+3- En las especificaciones de HTML, un elemento o atributo se considera desaprobado (deprecated)
+cuando todavía está permitido y los navegadores lo soportan, pero el estándar recomienda
+no usarlo porque existe una alternativa mejor (generalmente con CSS o nuevas etiquetas).
+Es decir, sigue funcionando por compatibilidad, pero puede dejar de usarse en el futuro.
+
+En cambio, se considera obsoleto (obsolete) cuando ya no forma parte del estándar actual
+y su uso está totalmente desaconsejado. Aunque algunos navegadores podrían seguir
+interpretándolo por compatibilidad con sitios antiguos, no se garantiza su funcionamiento y
+podría eliminarse por completo en cualquier momento, por lo que no debería utilizarse en
+desarrollos nuevos.
+
+4- El DTD (Document Type Definition) es una declaración que se incluye al inicio de un
+documento HTML para indicar qué versión de HTML se está utilizando y cuáles son las reglas
+que debe seguir la estructura del documento. Sirve para que los navegadores y validadores
+interpreten correctamente el contenido y verifiquen si el código cumple con el estándar
+definido.
+
+En la especificación de HTML 4.01 se contemplan tres tipos de DTD: Strict, que exige una
+separación total entre contenido y presentación (no permite etiquetas de estilo antiguas);
+Transitional, que es más flexible y permite ciertos elementos de presentación por
+compatibilidad con versiones anteriores; y Frameset, que se utiliza para documentos
+que emplean marcos (frames) en lugar de la estructura tradicional del <body>.
+
+5- Los metadatos son datos que describen o brindan información sobre el contenido de una página
+web, pero que no se muestran directamente al usuario. Sirven para indicar, por ejemplo,
+la codificación de caracteres, el autor, la descripción del sitio, palabras clave o
+instrucciones para navegadores y motores de búsqueda.
+
+En HTML, los metadatos se especifican dentro de la sección <head> del documento,
+principalmente mediante la etiqueta <meta>. Por ejemplo, se pueden definir con atributos
+como charset (codificación), name y content (para descripción o keywords), o http-equiv
+(para comportamientos del navegador). También se consideran metadatos otros elementos dentro
+del <head>, como <title>, que define el título de la página.
+
+Ejercitación 2:
+
+2.a- En cualquier parte del documento.
+Es un comentario.
+Elementos: <!-- -->. 
+No tiene atributos y no es obligatorio
+
+2.b- Dentro de la etiqueta <body>. 
+Es un bloque contenedor. 
+Elementos: <div>. 
+Atributos: id="bloque1". No es obligatorio
+
+2.c- Dentro de la etiqueta <body>. Inserta una imagen (elemento vacío).
+Elementos: <img>.
+Atributos:
+src="" obligatorio,
+alt="lugar imagen" obligatorio,
+id="im1" no es obligatorio,
+name="im1" no es obligatorio,
+width="32" no es obligatorio,
+height="32" no es obligatorio,
+longdesc="detalles.htm" no es obligatorio
+
+2.d- Dentro de la etiqueta <head>. Define metadatos.
+Elementos: <meta>.
+Atributos:
+name="keywords" no es obligatorio,
+lang="es" no es obligatorio,
+content="..." obligatorio si se usa name,
+http-equiv="expires" no es obligatorio.
+
+2.e- Dentro de la etiqueta <body>. Crea un enlace.
+Elementos: <a>.
+Atributos:
+href="..." obligatorio,
+type="text/html" no es obligatorio,
+hreflang="es" no es obligatorio,
+charset="utf-8" no es obligatorio,
+rel="help" no es obligatorio.
+
+2.f- Dentro de la etiqueta <body>. Crea una tabla de datos.
+Elementos: <table>, <caption>, <tr>, <th>, <td>.
+Atributos:
+width="200" no es obligatorio,
+summary="..." no es obligatorio,
+align="top" no es obligatorio,
+scope="col" no es obligatorio,
+scope="row" no es obligatorio.
+
+Ejercitacion 3:
+3.a-
+Sin target="_blank" abre el enlace en la misma pestaña.
+Con target="_blank" abre en nueva pestaña.
+El enlace con espacio en la URL "www. google.com.ar" puede no funcionar.
+<a href="#"> no navega, solo recarga o queda en la misma página.
+<a href="#arriba"> navega a un ancla interna.
+<a name="arriba" id="arriba"> define el punto de destino dentro de la página.
+
+3.b-
+Imagen + link separados solo el texto es clickeable.
+Imagen dentro del <a> la imagen es clickeable.
+Imagen + texto dentro del <a> ambos son clickeables.
+Imagen y texto en enlaces separados cada uno funciona como link independiente.
+
+3.c-
+<ul> lista sin orden.
+<ol> lista ordenada.
+Uso de value en <li> permite cambiar la numeración manualmente.
+<blockquote> con <br> simula lista, pero no es semánticamente correcta.
+
+3.d-
+Primer caso usa <th> y ese semánticamente correcto.
+Segundo caso usa <td> + <div> + <strong>, solo apariencia visual.
+La diferencia es que el primero es semántico y accesible, el segundo no.
+
+3.e-
+El uso de <caption> forma correcta de poner título a la tabla.
+Uso de <td colspan="3"> simula título dentro de la tabla.
+La diferencia es que <caption> es correcto semánticamente, colspan es solo visual.
+
+3.f-
+rowspan una celda ocupa varias filas.
+colspan una celda ocupa varias columnas.
+La diferencia es que cambia la estructura de la tabla (vertical vs horizontal).
+
+3.g-
+border="1" muestra bordes.
+cellpadding espacio interno de celdas.
+cellspacing espacio entre celdas.
+La diferencia es que cambia el espaciado y visualización de la tabla.
+
+3.h-
+Form 1 method="post" envía datos ocultos, más seguro.
+Form 2 method="get" datos visibles en la URL.
+Form 3 action="mailto:..." envía datos por email.
+fieldset y legend agrupan campos.
+type="password" oculta texto.
+type="reset" reinicia formulario.
+Las diferencias es que cambian forma de envío, seguridad y comportamiento.
+
+3.i-
+<button> permite contenido complejo (imagen + texto).
+<input type="button"> solo texto simple.
+La diferencia es que <button> es más flexible.
+
+3.j-
+Mismo name opciones mutuamente excluyentes (radio real).
+La diferencia es que distinto name se pueden seleccionar ambas opciones.
+
+3.k-
+<select> normal permite una sola opción.
+multiple="multiple" permite varias selecciones.
+name="lista[]" envía múltiples valores como arreglo.
+La diferencia es de selección simple vs múltiple.
